@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --fonte_inativa: #000000;
+    --cor_de_fundo: #ebebeb;
+    --cor_secundaria: #f5f5f5;
+    --cor_terciaria: #ffffff;
+    --fonte_principal: 'Poppins', sans-serif;
+    --fonte_ativa: #2b2b2b;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: var(--cor_de_fundo);
+    color: var(--fonte_inativa);
+    font-family: var(--fonte_principal);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#__login-div {
+    background-color: var(--cor_terciaria);
+    height: 60vh;
+    width: 50vh;
+    border-radius: 2px;
+
+}
+
+#__cadastro-div {
+    background-color: var(--cor_terciaria);
+    height: 90vh;
+    width: 50vw;
+    border-radius: 2px;
+
+}
+
+#__listagem-cursos-admin-div {
+    background-color: var(--cor_terciaria);
+    height: 90vh;
+    width: 90vw;
+    border-radius: 2px;
+
+}
+
+#__listagem-cursos-aluno-div {
+    background-color: var(--cor_terciaria);
+    height: 90vh;
+    width: 90vw;
+    border-radius: 2px;
+
+}
+
+#__listagem-alunos-admin-div {
+    background-color: var(--cor_terciaria);
+    height: 90vh;
+    width: 90vw;
+    border-radius: 2px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: var(--cor_secundaria);
+    color: var(--fonte_inativa);
+    width: 80%;
+    height: 25px;
+    margin: 0px 10%;
+    border-radius: 2px;
+    padding: 10px;
+    
+}
+
+label {
+    margin-top: 8px;
+    margin-left: 10%;
+    font-size: 21px;
+}
+
+button {
+    width: 25%;
+    height: 25px;
+    background-color: var(--cor_secundaria);
+    color: var(--fonte_inativa);
+    border-radius: 2px;
+    border: var(--fonte_ativa) 1px solid;
+    margin: 27px 37% 0px 37%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--fonte_ativa);
+    cursor: pointer;
+}
+
+#__create {
+    text-align: center;
+    width: 80%;
+    margin: 0px 10%;
+}
+
+
+.itemCurso {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.itemCurso h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.itemCurso p {
+    font-size: 14px;
+    color: #555555;
+}
+
+.itemAluno {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.itemAluno h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.itemAluno p {
+    font-size: 14px;
+    color: #555555;
+}

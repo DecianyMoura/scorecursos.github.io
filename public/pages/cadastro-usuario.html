@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Score | Cadastro </title>
+  <link rel="stylesheet" href="../styles/scondary-style.css">
+  <script src="../scripts/cadastro-usuario-scripts.js"></script>
+</head>
+
+<body>
+
+  <main>
+    <div id="__cadastro-div">
+      <h1>Cadastrar-se</h1>
+
+      <form onsubmit="cadastrarUsuario(); return false;">
+        <label for="">Nome</label> <br>
+        <input id="nome" type="text" placeholder="insira seu nome aqui">
+        <label for="">E-mail</label> <br>
+        <input id="email" type="email" placeholder="insira seu email aqui">
+        <label for="">Contato</label> <br>
+        <input id="contato" type="text" maxlength="20" placeholder="insira seu contato">
+        <label for="">CPF</label> <br>
+        <input id="cpf" type="text" minlength="11" maxlength="11" placeholder="insira seu cpf aqui">
+        <label for="">Endereço</label> <br>
+        <input id="endereco" type="text" placeholder="insira seu nome aqui">
+        <button type="submit"> CADASTRAR-SE </button> <br>
+      </form>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
